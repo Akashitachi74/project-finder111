@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0;
+    color: #ffffff;
+   
+   
+}
+body{
+    background: linear-gradient(to right, #2b66be,#020753); /* Added linear gradient */
+    left: 10%;
+    right: 10%;
+}
+
+img:hover{
+    background-color: #3ea2e0;
+    color: white;
+   
+}
+img{
+    text-align: center;
+    border-color: #d9ebf5;
+    border-width: 2px;
+    border-style: solid;
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    padding: 2px;
+    text-align: center;
+}
+
+p{
+    border-right: 10px;
+    
+    color: white;
+    font-size: 20px;
+    text-align:left;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+.project-container {
+    border: 2px solid #3ea2e0; /* Add border to the container */
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center; /* Center align the text inside the container */
+}
+
+.project-container h2, .project-container p, .project-container img {
+    margin: 10px 0; /* Add margin to the elements inside the container */
+}
+button{
+    background-color: #95d8e9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 20px;
+    background: linear-gradient(to right, #1325cc, #190861); 
+
+}
+
+button:hover {
+    background-color: #000000;
+}
+h3,h1{
+    color: rgb(255, 255, 255);
+    text-align:left;    
+}
+
+
+
+
